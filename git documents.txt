@@ -1,0 +1,26 @@
+git remote -v : it will show which git repository it is connected to
+
+git remote rm origin : rm means remove, it got disconnected to origin
+
+git init: initialization of epmty git repository
+
+U: means untracked
+A: means added
+
+git add . : changes that happened will be added
+
+git status: to get the status of the commits
+
+git commit -m "create app.py"
+
+git config --global user.name "Shripad Kumar": it will make a user name of shripad kumar
+
+git config --global user.email "shripad0618@gmail.com" : it has to be email of github account
+
+git branch -M main: -M to rename purposes
+
+git remote add origin https://github.com/Shripad0618/git_practice.git
+
+git push -u origin main: to push the code from staging area to git
+
+git clone https://github.com/Shripad0618/git_practice.git # it will clone/replica/copy all the files 
